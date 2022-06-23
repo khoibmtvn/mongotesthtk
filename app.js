@@ -4,7 +4,7 @@ var express = require('express');
 var bookModel =  require('./models/data');
 
 //connect to db
-mongoose.connect('mongodb://localhost:27017/searchingg',{useNewUrlParser:true})
+mongoose.connect('mongodb+srv://khoi123:thanhkhoi22@cluster0.i8j6e.mongodb.net/test',{useNewUrlParser:true})
 .then(()=>console.log('connectd to db'))
 .catch((err)=>console.log('error ',err))
 
